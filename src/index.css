@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme{
+  --color-lightBg:#FAE7EE;
+  --color-darkBg :#241F2B;
+  --color-titleLight :#6C4E7D;
+  --color-list:#BDE0FE;
+  --color-task:#A2D2FF;
+  --color-text:#6C4E7D;
+  --color-NoTasks:#FFC8DD;
+  --color-CloseBtn : #CDB4DB ;
+  --color-doneBtn : #FFC8DD;
+  --color-input:#FFAFCC;
+  --color-shadow :#E496B2;
+}
+
+@custom-variant dark (&:where(html.dark &));
+
+*{
+    font-family: "imprima",sans-serif;
+}
